@@ -36,5 +36,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with: 
-          name: assets-for-download/report.json
+          name: assets-for-download
           path: build\outputs\hap\debug\phone
